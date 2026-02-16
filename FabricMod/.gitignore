@@ -1,0 +1,11 @@
+# Gradle build outputs
+.gradle/
+build/
+out/
+
+# OS / IDE
+.idea/
+*.iml
+
+# Misc
+*.class
