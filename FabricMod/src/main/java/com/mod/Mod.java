@@ -1,5 +1,6 @@
 package com.mod;
 
+
 import com.mod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -17,6 +18,7 @@ public class Mod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		ModItems.registerModItems();
+		ModItems.initialize();
+		Mod.LOGGER.info("Mod initialized");
 	}
 }
