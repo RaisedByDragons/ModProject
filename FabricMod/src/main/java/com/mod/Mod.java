@@ -1,11 +1,12 @@
 package com.mod;
 
+import com.mod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ModInit implements ModInitializer {
+public class Mod implements ModInitializer {
 	public static final String MOD_ID = "mod";
 
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
@@ -16,7 +17,6 @@ public class ModInit implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-
-
+		ModItems.registerModItems();
 	}
 }
