@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FabricMod.client.iml" filepath="$PROJECT_DIR$/.idea/modules/FabricMod.client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FabricMod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/FabricMod.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FabricMod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/FabricMod.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/TSP-Minecraft-Mod.iml" filepath="$PROJECT_DIR$/.idea/TSP-Minecraft-Mod.iml" />
     </modules>
   </component>
 </project>
