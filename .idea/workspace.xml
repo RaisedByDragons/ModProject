@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="Added &quot;Aerite&quot; item">
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/resources/assets/mod/items/aerite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/lang/en_us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/models/item/aerite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/textures/item/aerite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/modid/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/ModClientInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/ModClientInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,6 +352,7 @@
       <workItem from="1771263468408" duration="3000" />
       <workItem from="1771263535858" duration="7000" />
       <workItem from="1771295978102" duration="3875000" />
+      <workItem from="1771299901087" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="Renaming files">
       <option name="closed" value="true" />
@@ -381,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771276386666</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added &quot;Aerite&quot; item">
+      <option name="closed" value="true" />
+      <created>1771300107661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771300107661</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
