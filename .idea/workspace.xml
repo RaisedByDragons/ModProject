@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="Renaming files">
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/mixin/item/ModItems.java" afterDir="false" />
+    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="Added &quot;Aerite&quot; item">
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/resources/assets/mod/items/aerite.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/lang/en_us.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/models/item/aerite.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/textures/item/aerite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.example.FabricMod.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/2026-02-16-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/ModInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Mod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/items.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/modid/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +99,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Emmett93/TSP-Minecraft-Mod.git&quot;,
-    &quot;accountId&quot;: &quot;ef8d3dad-618c-4bd9-b1b1-edf44411ccc6&quot;
+    &quot;accountId&quot;: &quot;0b1f7915-6bad-4015-8c58-8868871d9c87&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -93,28 +109,75 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/build.gradle.executor": "Run",
-    "Gradle.FabricMod [build].executor": "Run",
-    "Gradle.FabricMod [configureLaunch].executor": "Run",
-    "Gradle.FabricMod [runClient].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "mod",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-b00516cda8/1.21.11-loom.mappings.1_21_11.layered+hash.2198-v2/minecraft-common-b00516cda8-1.21.11-loom.mappings.1_21_11.layered+hash.2198-v2-sources.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/build.gradle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FabricMod [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FabricMod [configureLaunch].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FabricMod [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mod&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/src/main/resources/assets/textures/item&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\textures\item" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\modid" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\mod" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.FabricMod [runClient]">
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="FabricMod" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="FabricMod" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="FabricMod [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -244,40 +307,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="docs" factoryName="Docutils task">
-      <module name="FabricMod" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Sphinx task">
-      <module name="FabricMod" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="FabricMod" />
       <option name="ENV_FILES" value="" />
@@ -317,16 +346,16 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.FabricMod [runClient]" />
-        <item itemvalue="Gradle.FabricMod [configureLaunch]" />
         <item itemvalue="Gradle.FabricMod [build]" />
+        <item itemvalue="Gradle.FabricMod [configureLaunch]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -342,6 +371,7 @@
       <workItem from="1771263107650" duration="232000" />
       <workItem from="1771263468408" duration="3000" />
       <workItem from="1771263535858" duration="7000" />
+      <workItem from="1771295978102" duration="3875000" />
     </task>
     <task id="LOCAL-00001" summary="Renaming files">
       <option name="closed" value="true" />
@@ -371,6 +401,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <MESSAGE value="Renaming files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renaming files" />
+    <MESSAGE value="Added &quot;Aerite&quot; item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Aerite&quot; item" />
   </component>
 </project>

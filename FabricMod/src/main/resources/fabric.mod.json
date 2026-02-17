@@ -3,16 +3,16 @@
 	"id": "mod",
 	"version": "${version}",
 	"name": "Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds a new dimension to Minecraft as well as a multitude of items and mobs",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Emmett93/TSP-Minecraft-Mod.git"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
