@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="">
+    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="New class for blocks">
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/block/ModBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Mod.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Mod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -75,6 +84,9 @@
     &quot;accountId&quot;: &quot;ef8d3dad-618c-4bd9-b1b1-edf44411ccc6&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -103,6 +115,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.FabricMod [runClient]">
     <configuration name="FabricMod [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -203,5 +220,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New class for blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="New class for blocks" />
   </component>
 </project>

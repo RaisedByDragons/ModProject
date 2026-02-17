@@ -1,6 +1,7 @@
 package com.mod;
 
 
+import com.mod.block.ModBlocks;
 import com.mod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -19,6 +20,7 @@ public class Mod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.initialize();
+		ModBlocks.initialize();
 		Mod.LOGGER.info("Mod initialized");
 	}
 }
