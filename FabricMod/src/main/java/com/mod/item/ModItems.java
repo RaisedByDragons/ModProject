@@ -15,7 +15,7 @@ import java.util.function.Function;
 
 public class ModItems {
 
-    public static final Item AER_DIRT = register("aer_dirt", Item::new, new Item.Properties());
+    public static final Item AERITE = register("aerite", Item::new, new Item.Properties());
 
 
     public static <GenericItem extends Item> Item register(String name, Function<Item.Properties, GenericItem> itemFactory, Item.Properties settings) {
@@ -34,6 +34,6 @@ public class ModItems {
         Mod.LOGGER.info("Registering items for " + Mod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS)
-                .register((itemGroup) -> itemGroup.accept(ModItems.AER_DIRT));
+                .register((itemGroup) -> itemGroup.accept(ModItems.AERITE));
     }
 }
