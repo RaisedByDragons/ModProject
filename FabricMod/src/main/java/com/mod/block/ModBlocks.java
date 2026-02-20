@@ -21,7 +21,11 @@ public class ModBlocks {
     public static final Block AERITE_BLOCK = register(
             "aerite_block",
             Block::new,
-            BlockBehaviour.Properties.of().sound(SoundType.AMETHYST),
+            BlockBehaviour.Properties.of()
+                    .sound(SoundType.AMETHYST)
+                    .strength(6.0f)
+                    .requiresCorrectToolForDrops(),
+
             true
     );
 
