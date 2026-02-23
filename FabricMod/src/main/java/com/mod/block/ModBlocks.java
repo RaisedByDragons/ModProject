@@ -73,13 +73,5 @@ public class ModBlocks {
     }
     public static void initialize() {
         Mod.LOGGER.info("Registering Mod Blocks for " + Mod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register((itemGroup) -> {
-            itemGroup.accept(ModBlocks.AERITE_BLOCK.asItem());
-        });
-
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register((itemGroup) -> {
-            itemGroup.accept(ModBlocks.AERITE_ORE.asItem());
-        });
     }
 }
