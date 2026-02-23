@@ -7,10 +7,12 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
@@ -28,6 +30,19 @@ public class ModBlocks {
 
             true
     );
+    public static final Block AERITE_ORE =
+            register(
+                    "aerite_ore",
+                    properties -> new DropExperienceBlock(
+                            UniformInt.of(6, 10),
+                            properties
+                    ),
+                    BlockBehaviour.Properties.of()
+                            .sound(SoundType.STONE)
+                            .strength(4.0f)
+                            .requiresCorrectToolForDrops(),
+                    true
+            );
 
     private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
         // Create a registry key for the block
@@ -61,6 +76,10 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register((itemGroup) -> {
             itemGroup.accept(ModBlocks.AERITE_BLOCK.asItem());
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register((itemGroup) -> {
+            itemGroup.accept(ModBlocks.AERITE_ORE.asItem());
         });
     }
 }

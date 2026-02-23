@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="New class for blocks">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.mod.FabricMod.client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.mod.FabricMod.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.mod.FabricMod.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/blockstates/aerite_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/models/block/aerite_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/textures/block/aerite_block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/needs_diamond_tool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/mod/loot_table/blocks/aerite_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/blockstates/aerite_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/models/block/aerite_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/mod/loot_table/blocks/aerite_ore.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" afterDir="false" />
@@ -25,7 +19,8 @@
       <change beforePath="$PROJECT_DIR$/FabricMod/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/block/ModBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/textures/item/aerite.png" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/textures/item/aerite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/needs_diamond_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/needs_diamond_tool.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,12 +91,12 @@
     &quot;assignee&quot;: &quot;caydenjr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Emmett93/TSP-Minecraft-Mod.git",
-    "accountId": "0b1f7915-6bad-4015-8c58-8868871d9c87"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Emmett93/TSP-Minecraft-Mod.git&quot;,
+    &quot;accountId&quot;: &quot;0b1f7915-6bad-4015-8c58-8868871d9c87&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -123,7 +118,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "mod",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/src/main/resources/assets/mod/textures/block",
+    "last_opened_file_path": "C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/src/main/resources/data/mod/loot_table/blocks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -137,8 +132,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\loot_table\blocks" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\models\block" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\items" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\blockstates" />
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\textures\block" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\textures\item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod" />
