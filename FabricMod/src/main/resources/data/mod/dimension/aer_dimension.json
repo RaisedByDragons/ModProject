@@ -1,0 +1,11 @@
+{
+  "type": "mod:aer_dimension_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "mod:aer",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "mod:aer"
+    }
+  }
+}

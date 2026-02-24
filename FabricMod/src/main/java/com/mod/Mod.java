@@ -2,6 +2,8 @@ package com.mod;
 
 
 import com.mod.block.ModBlocks;
+import com.mod.dimension.AerDimensionGenerator;
+import com.mod.dimension.AerTeleport;
 import com.mod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -24,6 +26,8 @@ public class Mod implements ModInitializer {
 
 		ModItems.initialize();
 		ModBlocks.initialize();
+		AerDimensionGenerator.initialize();
+		AerTeleport.register();
 
 		Mod.LOGGER.info("Mod initialized");
 	}
