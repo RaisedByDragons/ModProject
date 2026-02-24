@@ -6,6 +6,7 @@
 
   "block.mod.aerite_block": "Aerite Block",
   "block.mod.aerite_ore": "Aerite Ore",
+  "block.mod.bedrock": "Bedrock",
 
   "tag.item.mod.repairs_aerite_tool": "Repairs Aerite Tool",
   "tag.item.mod.repairs_aerite_armor": "Repairs Aerite Armor"

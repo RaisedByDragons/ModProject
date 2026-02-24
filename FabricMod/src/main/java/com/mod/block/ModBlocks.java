@@ -23,8 +23,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .sound(SoundType.STONE)
-                    .strength(40.0f)
-                    .requiresCorrectToolForDrops(),
+                    .requiresCorrectToolForDrops()
+                    .strength(25.0f),
             true
     );
 
@@ -33,8 +33,8 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of()
                     .sound(SoundType.AMETHYST)
-                    .strength(6.0f)
-                    .requiresCorrectToolForDrops(),
+                    .requiresCorrectToolForDrops()
+                    .strength(6.0f),
 
             true
     );

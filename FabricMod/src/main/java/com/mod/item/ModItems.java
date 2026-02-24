@@ -34,12 +34,14 @@ public class ModItems {
                 // Items
                 output.accept(ModItems.AERITE);
 
+
                 // Tools
                 output.accept(ModItems.AERITE_PICKAXE);
 
                 // Blocks (may separate into two tabs in the future
                 output.accept(ModBlocks.AERITE_BLOCK);
                 output.accept(ModBlocks.AERITE_ORE);
+                output.accept(ModBlocks.BREAKABLE_BEDROCK);
             })
             .build();
 
@@ -51,15 +53,14 @@ public class ModItems {
 
 
 
-
     // Tools
     public static final TagKey<Item> REPAIRS_AERITE_TOOL= TagKey.create(BuiltInRegistries.ITEM.key(), Identifier.fromNamespaceAndPath(Mod.MOD_ID, "repairs_aerite_tool"));
     public static final ToolMaterial AERITE_MATERIAL = new ToolMaterial(
-        BlockTags.NEEDS_DIAMOND_TOOL,
+        BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
                 1900,
                 8.5F,
                 3.5F,
-                13,
+                22,
            REPAIRS_AERITE_TOOL
     );
 
@@ -67,7 +68,7 @@ public class ModItems {
 
     public static final Item AERITE_PICKAXE = register(
             "aerite_pickaxe",
-            Item::new,
+            AeritePickaxe::new,
             new Item.Properties().pickaxe(AERITE_MATERIAL, 1f, -2.0f)
     );
 
