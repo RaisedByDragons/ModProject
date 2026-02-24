@@ -5,8 +5,11 @@ import com.mod.block.ModBlocks;
 import com.mod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+
 
 public class Mod implements ModInitializer {
 	public static final String MOD_ID = "mod";
@@ -21,6 +24,8 @@ public class Mod implements ModInitializer {
 
 		ModItems.initialize();
 		ModBlocks.initialize();
+
 		Mod.LOGGER.info("Mod initialized");
 	}
+
 }

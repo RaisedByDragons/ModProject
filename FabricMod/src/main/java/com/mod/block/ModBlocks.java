@@ -1,7 +1,6 @@
 package com.mod.block;
 
 import com.mod.Mod;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -9,7 +8,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
@@ -20,13 +18,23 @@ import java.util.function.Function;
 
 public class ModBlocks {
 
+    public static final Block BREAKABLE_BEDROCK = register(
+            "bedrock",
+            Block::new,
+            BlockBehaviour.Properties.of()
+                    .sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()
+                    .strength(25.0f),
+            true
+    );
+
     public static final Block AERITE_BLOCK = register(
             "aerite_block",
             Block::new,
             BlockBehaviour.Properties.of()
                     .sound(SoundType.AMETHYST)
-                    .strength(6.0f)
-                    .requiresCorrectToolForDrops(),
+                    .requiresCorrectToolForDrops()
+                    .strength(6.0f),
 
             true
     );
@@ -74,12 +82,5 @@ public class ModBlocks {
     public static void initialize() {
         Mod.LOGGER.info("Registering Mod Blocks for " + Mod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register((itemGroup) -> {
-            itemGroup.accept(ModBlocks.AERITE_BLOCK.asItem());
-        });
-
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register((itemGroup) -> {
-            itemGroup.accept(ModBlocks.AERITE_ORE.asItem());
-        });
     }
 }

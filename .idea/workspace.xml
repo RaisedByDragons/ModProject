@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="New class for blocks">
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/blockstates/aerite_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/models/block/aerite_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/mod/loot_table/blocks/aerite_ore.json" afterDir="false" />
+    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="Working on replacing bedrock generation">
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/AeritePickaxe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/blockstates/bedrock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/bedrock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/models/block/bedrock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/textures/block/bedrock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/textures/item/aerite_pickaxe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/item/pickaxes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/mod/loot_table/blocks/bedrock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/mod/recipe/aerite.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/mod/recipe/aerite_block.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" afterDir="false" />
@@ -17,10 +24,13 @@
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Mod.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Mod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/block/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_ore.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/needs_diamond_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/needs_diamond_tool.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +65,18 @@
                 <item name="FabricMod" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FabricMod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FabricMod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -112,11 +134,12 @@
     "Gradle.C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/build.gradle.executor": "Run",
     "Gradle.FabricMod [build].executor": "Run",
     "Gradle.FabricMod [configureLaunch].executor": "Run",
+    "Gradle.FabricMod [javadoc].executor": "Run",
     "Gradle.FabricMod [runClient].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "mod",
+    "git-widget-placeholder": "bedrockReplacement",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/src/main/resources/data/mod/loot_table/blocks",
     "node.js.detected.package.eslint": "true",
@@ -133,12 +156,14 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\loot_table\blocks" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\models\block" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\items" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\blockstates" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\recipe" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\textures\item" />
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\textures\block" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\java\com\mod\mixin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\tags\items" />
+      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\models\item" />
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod" />
     </key>
   </component>
@@ -187,6 +212,28 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="FabricMod [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/FabricMod" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="javadoc" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="FabricMod [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -212,6 +259,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.FabricMod [runClient]" />
+        <item itemvalue="Gradle.FabricMod [javadoc]" />
         <item itemvalue="Gradle.FabricMod [configureLaunch]" />
         <item itemvalue="Gradle.FabricMod [build]" />
       </list>
@@ -238,7 +286,25 @@
       <workItem from="1771263468408" duration="3000" />
       <workItem from="1771263535858" duration="355000" />
       <workItem from="1771612140933" duration="4136000" />
+      <workItem from="1771865541024" duration="36115000" />
     </task>
+    <task id="LOCAL-00001" summary="Working on pickaxe item">
+      <option name="closed" value="true" />
+      <created>1771879532918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771879532918</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Working on replacing bedrock generation">
+      <option name="closed" value="true" />
+      <created>1771892873519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771892873519</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +312,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New class for blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="New class for blocks" />
+    <MESSAGE value="Working on pickaxe item" />
+    <MESSAGE value="Working on replacing bedrock generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on replacing bedrock generation" />
   </component>
 </project>

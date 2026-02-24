@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "mod:block/aerite_block"
+    "model": "mod:block/bedrock"
   }
 }
