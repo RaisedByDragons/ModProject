@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "aerite",
+  "ingredients": [
+    "aer:aerite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "aer:aerite"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemGroup.aer": "Aer",
+  "item.aer.aerite": "Aerite",
+
+  "item.aer.aerite_pickaxe": "Aerite Pickaxe",
+
+  "block.aer.aerite_block": "Aerite Block",
+  "block.aer.aerite_ore": "Aerite Ore",
+  "block.aer.bedrock": "Bedrock",
+
+  "tag.item.aer.repairs_aerite_tool": "Repairs Aerite Tool",
+  "tag.item.aer.repairs_aerite_armor": "Repairs Aerite Armor"
+}

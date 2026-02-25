@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mod:aerite_block",
-    "mod:aerite_ore"
+    "aer:aerite_block",
+    "aer:aerite_ore"
   ]
 }

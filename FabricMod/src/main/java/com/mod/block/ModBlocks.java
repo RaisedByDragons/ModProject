@@ -1,6 +1,6 @@
 package com.mod.block;
 
-import com.mod.Mod;
+import com.mod.Aer;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -73,14 +73,14 @@ public class ModBlocks {
     }
 
     private static ResourceKey<Block> keyOfBlock(String name) {
-        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Mod.MOD_ID, name));
+        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Aer.MOD_ID, name));
     }
 
     private static ResourceKey<Item> keyOfItem(String name) {
-        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Mod.MOD_ID, name));
+        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Aer.MOD_ID, name));
     }
     public static void initialize() {
-        Mod.LOGGER.info("Registering Mod Blocks for " + Mod.MOD_ID);
+        Aer.LOGGER.info("Registering Aer Blocks for " + Aer.MOD_ID);
 
     }
 }

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "mod:aerite_block",
-    "mod:aerite_ore",
-    "mod:bedrock"
+    "aer:aerite_block",
+    "aer:aerite_ore",
+    "aer:bedrock"
   ]
 }

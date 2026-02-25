@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "mod",
+	"id": "aer",
 	"version": "${version}",
 	"name": "Mod",
 	"description": "Adds a new dimension to Minecraft as well as a multitude of items and mobs",
@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.mod.Mod"
+			"com.mod.Aer"
 		],
 		"client": [
 			"com.mod.ModClientInit"
