@@ -1,6 +1,6 @@
 package com.mod.item;
 
-import com.mod.Mod;
+import com.mod.Aer;
 import com.mod.block.ModBlocks;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -26,7 +26,7 @@ public class ModItems {
 
 
     // Creative mode tab
-    public static final ResourceKey<CreativeModeTab> AER_CREATIVE_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(Mod.MOD_ID, "aer"));
+    public static final ResourceKey<CreativeModeTab> AER_CREATIVE_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(Aer.MOD_ID, "aer"));
     public static final CreativeModeTab AER = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModItems.AERITE))
             .title(Component.translatable("itemGroup.mod"))
@@ -54,7 +54,7 @@ public class ModItems {
 
 
     // Tools
-    public static final TagKey<Item> REPAIRS_AERITE_TOOL= TagKey.create(BuiltInRegistries.ITEM.key(), Identifier.fromNamespaceAndPath(Mod.MOD_ID, "repairs_aerite_tool"));
+    public static final TagKey<Item> REPAIRS_AERITE_TOOL= TagKey.create(BuiltInRegistries.ITEM.key(), Identifier.fromNamespaceAndPath(Aer.MOD_ID, "repairs_aerite_tool"));
     public static final ToolMaterial AERITE_MATERIAL = new ToolMaterial(
         BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
                 1900,
@@ -78,7 +78,7 @@ public class ModItems {
 
     public static <GenericItem extends Item> Item register(String name, Function<Item.Properties, GenericItem> itemFactory, Item.Properties settings) {
         // Create the item key.
-        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Mod.MOD_ID, name));
+        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Aer.MOD_ID, name));
 
         // Create the item instance.
         GenericItem item = itemFactory.apply(settings.setId(itemKey));
@@ -89,7 +89,7 @@ public class ModItems {
         return item;
     }
     public static void initialize() {
-        Mod.LOGGER.info("Registering items for " + Mod.MOD_ID);
+        Aer.LOGGER.info("Registering items for " + Aer.MOD_ID);
 
         // Creative mode tab
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, AER_CREATIVE_TAB_KEY, AER);

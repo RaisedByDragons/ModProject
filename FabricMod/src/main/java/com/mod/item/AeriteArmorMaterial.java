@@ -1,7 +1,7 @@
 package com.mod.item;
 
 
-import com.mod.Mod;
+import com.mod.Aer;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
@@ -21,8 +21,8 @@ public class AeriteArmorMaterial {
 
     // Aerite
     public static final int AERITE_BASE_DURABILITY = 35;
-    public static final ResourceKey<EquipmentAsset> AERITE_ARMOR_MATERIAL_KEY = ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.fromNamespaceAndPath(Mod.MOD_ID, "aerite"));
-    public static final TagKey<Item> REPAIRS_AERITE_ARMOR = TagKey.create(BuiltInRegistries.ITEM.key(), Identifier.fromNamespaceAndPath(Mod.MOD_ID, "repairs_aerite_armor"));
+    public static final ResourceKey<EquipmentAsset> AERITE_ARMOR_MATERIAL_KEY = ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.fromNamespaceAndPath(Aer.MOD_ID, "aerite"));
+    public static final TagKey<Item> REPAIRS_AERITE_ARMOR = TagKey.create(BuiltInRegistries.ITEM.key(), Identifier.fromNamespaceAndPath(Aer.MOD_ID, "repairs_aerite_armor"));
 
 
     public static final ArmorMaterial AERITE_ARMOR_MATERIAL = new ArmorMaterial(
