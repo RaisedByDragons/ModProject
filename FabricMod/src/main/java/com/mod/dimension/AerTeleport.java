@@ -23,7 +23,7 @@ public class AerTeleport {
                     // Prevent spam / double teleport
                     if (player.isChangingDimension()) continue;
 
-                    if (player.getY() < world.getMinY()) {
+                    if (player.getY() < world.getMinY() - 10) {
                         teleport(server, player);
                     }
                 }
@@ -33,11 +33,11 @@ public class AerTeleport {
     }
 
     private static void teleport(MinecraftServer server, ServerPlayer player) {
-        ServerLevel target = server.getLevel(AerDimensionGenerator.AER_DIMENSION);
+        ServerLevel target = server.getLevel(AerDimension.AER_DIMENSION);
         if (target == null) return;
 
         double x = player.getX();
-        double y = target.getMaxY() + 40;
+        double y = target.getMaxY() - 170;
         double z = player.getZ();
         float yaw = player.getYRot();
         float pitch = player.getXRot();
