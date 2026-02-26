@@ -4,33 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="Working on replacing bedrock generation">
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/AeritePickaxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/blockstates/bedrock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/bedrock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/models/block/bedrock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/textures/block/bedrock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/textures/item/aerite_pickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/item/pickaxes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/mod/loot_table/blocks/bedrock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/mod/recipe/aerite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/mod/recipe/aerite_block.json" afterDir="false" />
+    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="New class for blocks">
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/ModClientInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/FancyPigModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/renderer/FancyPigRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/entities/ModEntities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/entities/custom/FancyPig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/aer/textures/entities/fancy_pig/fancy_pig.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-3.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Mod.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Mod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/block/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Aer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Aer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/ModClientInit.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/items/aerite_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/mod/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,20 +64,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="FabricMod" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FabricMod" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FabricMod" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="fabric" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -101,7 +83,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="mod" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,12 +95,12 @@
     &quot;assignee&quot;: &quot;caydenjr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Emmett93/TSP-Minecraft-Mod.git&quot;,
-    &quot;accountId&quot;: &quot;0b1f7915-6bad-4015-8c58-8868871d9c87&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Emmett93/TSP-Minecraft-Mod.git",
+    "accountId": "65cfcaa6-af7a-4f02-b8a7-fcc067805547"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -126,20 +108,31 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="39lDbug2VAKgHzLNsHClRHGkMJD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
     "Gradle.C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/build.gradle.executor": "Run",
     "Gradle.FabricMod [build].executor": "Run",
+    "Gradle.FabricMod [clean].executor": "Run",
     "Gradle.FabricMod [configureLaunch].executor": "Run",
+    "Gradle.FabricMod [dependencies].executor": "Run",
     "Gradle.FabricMod [javadoc].executor": "Run",
     "Gradle.FabricMod [runClient].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "bedrockReplacement",
+    "git-widget-placeholder": "entities",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/src/main/resources/data/mod/loot_table/blocks",
     "node.js.detected.package.eslint": "true",
@@ -162,6 +155,7 @@
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\java\com\mod\mixin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\aer\textures\entities\fancy_pig" />
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\tags\items" />
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\models\item" />
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod" />
@@ -186,11 +180,14 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="FabricMod [configureLaunch]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FabricMod [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/FabricMod" />
@@ -201,15 +198,43 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="configureLaunch" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FabricMod [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/FabricMod" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <configuration name="FabricMod [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -230,8 +255,11 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <configuration name="FabricMod [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -252,24 +280,27 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.FabricMod [runClient]" />
-        <item itemvalue="Gradle.FabricMod [javadoc]" />
-        <item itemvalue="Gradle.FabricMod [configureLaunch]" />
         <item itemvalue="Gradle.FabricMod [build]" />
+        <item itemvalue="Gradle.FabricMod [clean]" />
+        <item itemvalue="Gradle.FabricMod [dependencies]" />
+        <item itemvalue="Gradle.FabricMod [javadoc]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>

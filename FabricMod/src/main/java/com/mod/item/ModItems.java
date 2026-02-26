@@ -3,6 +3,8 @@ package com.mod.item;
 import com.mod.Aer;
 import com.mod.block.ModBlocks;
 
+import com.mod.entities.ModEntities;
+import com.mod.entities.custom.FancyPig;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
 
@@ -14,10 +16,9 @@ import net.minecraft.resources.ResourceKey;
 
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.ToolMaterial;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.animal.pig.Pig;
+import net.minecraft.world.item.*;
 
 
 import java.util.function.Function;
@@ -42,6 +43,7 @@ public class ModItems {
                 output.accept(ModBlocks.AERITE_BLOCK);
                 output.accept(ModBlocks.AERITE_ORE);
                 output.accept(ModBlocks.BREAKABLE_BEDROCK);
+                output.accept(ModItems.FANCY_PIG_SPAWN_EGG);
             })
             .build();
 
@@ -73,6 +75,11 @@ public class ModItems {
     );
 
 
+    public static final Item FANCY_PIG_SPAWN_EGG =
+            register("fancy_pig_spawn_egg",
+                    SpawnEggItem::new,
+                    new Item.Properties()
+            );
 
 
 

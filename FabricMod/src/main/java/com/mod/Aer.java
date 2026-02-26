@@ -2,6 +2,7 @@ package com.mod;
 
 
 import com.mod.block.ModBlocks;
+import com.mod.entities.ModEntities;
 import com.mod.world.dimension.AerDimension;
 import com.mod.world.dimension.AerTeleport;
 import com.mod.item.ModItems;
@@ -26,6 +27,7 @@ public class Aer implements ModInitializer {
 
 		ModItems.initialize();
 		ModBlocks.initialize();
+		ModEntities.initialize();
 		AerDimension.initialize();
 		AerTeleport.register();
 
