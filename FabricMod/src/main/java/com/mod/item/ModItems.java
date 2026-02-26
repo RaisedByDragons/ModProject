@@ -78,7 +78,7 @@ public class ModItems {
     public static final Item FANCY_PIG_SPAWN_EGG =
             register("fancy_pig_spawn_egg",
                     SpawnEggItem::new,
-                    new Item.Properties()
+                    new Item.Properties().spawnEgg(ModEntities.FANCY_PIG)
             );
 
 

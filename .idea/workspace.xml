@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="New class for blocks">
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/ModClientInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/FancyPigModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/renderer/FancyPigRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/entities/ModEntities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/entities/custom/FancyPig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/aer/textures/entities/fancy_pig/fancy_pig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="Started support for the addition of entities">
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/reference_images_TO_BE_DELETED/blockbench(website)_warm_pig.jem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/reference_images_TO_BE_DELETED/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/reference_images_TO_BE_DELETED/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/FancyPigSpawnEgg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/aer/items/fancy_pig_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/aer/models/item/fancy_pig_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/aer/textures/item/fancy_pig_spawn_egg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-3.log.gz" afterDir="false" />
@@ -22,10 +20,12 @@
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Aer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/Aer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/ModClientInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/ModClientInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/ModClientInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/FancyPigModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/FancyPigModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/renderer/FancyPigRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/renderer/FancyPigRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/entities/ModEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/entities/ModEntities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/java/com/mod/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/aer/textures/entities/fancy_pig/fancy_pig.png" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/main/resources/assets/aer/textures/entity/fancy_pig/fancy_pig.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,14 +95,14 @@
     &quot;assignee&quot;: &quot;caydenjr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Emmett93/TSP-Minecraft-Mod.git",
-    "accountId": "65cfcaa6-af7a-4f02-b8a7-fcc067805547"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Emmett93/TSP-Minecraft-Mod.git&quot;,
+    &quot;accountId&quot;: &quot;65cfcaa6-af7a-4f02-b8a7-fcc067805547&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -118,6 +118,7 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/build.gradle.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.FabricMod [build].executor": "Run",
     "Gradle.FabricMod [clean].executor": "Run",
     "Gradle.FabricMod [configureLaunch].executor": "Run",
@@ -134,7 +135,7 @@
     "git-widget-placeholder": "entities",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/src/main/resources/data/mod/loot_table/blocks",
+    "last_opened_file_path": "C:/Users/casey/IdeaProjects/MTU/TSP-Minecraft-Mod/FabricMod/src/client/java/com/mod/client/model/reference_images_TO_BE_DELETED",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -148,17 +149,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\client\java\com\mod\client\model\reference_images_TO_BE_DELETED" />
+      <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\client\java\com\mod\client\model" />
+      <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\aer\textures\item" />
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\loot_table\blocks" />
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\recipe" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\textures\item" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\textures\block" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\java\com\mod\mixin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\aer\textures\entity\fancy_pig" />
+      <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\aer\models\item" />
       <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\aer\textures\entities\fancy_pig" />
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\tags\items" />
       <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\models\item" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.FabricMod [runClient]">
@@ -335,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771892873519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Started support for the addition of entities">
+      <option name="closed" value="true" />
+      <created>1772079067851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772079067851</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +355,7 @@
     <MESSAGE value="New class for blocks" />
     <MESSAGE value="Working on pickaxe item" />
     <MESSAGE value="Working on replacing bedrock generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on replacing bedrock generation" />
+    <MESSAGE value="Started support for the addition of entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started support for the addition of entities" />
   </component>
 </project>

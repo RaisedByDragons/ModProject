@@ -57,7 +57,7 @@ public class ModEntities {
                     .build(FANCY_PIG_KEY);
 
     public static void initialize() {
-        Aer.LOGGER.info("Registering Entities for " + Aer.MOD_ID);
+//        Aer.LOGGER.info("Registering Entities for " + Aer.MOD_ID);
 
         Registry.register(BuiltInRegistries.ENTITY_TYPE, FANCY_PIG_KEY, FANCY_PIG);
 
