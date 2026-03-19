@@ -1,10 +1,7 @@
 package com.mod.client.model;// Made with Blockbench 5.0.7
 //// Exported for Minecraft version 1.17 or later with Mojang mappings
 //// Paste this class into your mod and generate all required imports
-//
-//TODO: Currently not implemented due to many errors
-	//Eventually this should use the fancy_pig.png image, and build boxes to fold the texture properly
-	//Most likely, the plugin used to export most everything below was out of date, as currently it doesn't work at all
+
 import com.mod.Aer;
 import com.mod.client.renderer.FancyPigRenderer;
 import com.mod.entities.ModEntities;
