@@ -6,20 +6,23 @@ package com.mod.client.model;// Made with Blockbench 5.0.7
 	//Eventually this should use the fancy_pig.png image, and build boxes to fold the texture properly
 	//Most likely, the plugin used to export most everything below was out of date, as currently it doesn't work at all
 import com.mod.Aer;
+import com.mod.client.renderer.FancyPigRenderer;
 import com.mod.entities.ModEntities;
 import com.mod.entities.custom.FancyPig;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.client.model.EntityModel;
+import net.minecraft.client.model.QuadrupedModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
+import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.animal.pig.Pig;
 
-public class FancyPigModel extends EntityModel<FancyPig> {
+public class FancyPigModel<T extends LivingEntityRenderState> extends QuadrupedModel<LivingEntityRenderState> {
 	// This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER =
 			new ModelLayerLocation(Identifier.tryParse(Aer.MOD_ID + ":fancy_pig"), "main");
@@ -89,12 +92,12 @@ public class FancyPigModel extends EntityModel<FancyPig> {
 
 	}
 
-	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay) {
-		body.render(poseStack, vertexConsumer, packedLight, packedOverlay);
-		head.render(poseStack, vertexConsumer, packedLight, packedOverlay);
-		leg1.render(poseStack, vertexConsumer, packedLight, packedOverlay);
-		leg2.render(poseStack, vertexConsumer, packedLight, packedOverlay);
-		leg3.render(poseStack, vertexConsumer, packedLight, packedOverlay);
-		leg4.render(poseStack, vertexConsumer, packedLight, packedOverlay);
-	}
+//	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay) {
+//		body.render(poseStack, vertexConsumer, packedLight, packedOverlay);
+//		head.render(poseStack, vertexConsumer, packedLight, packedOverlay);
+//		leg1.render(poseStack, vertexConsumer, packedLight, packedOverlay);
+//		leg2.render(poseStack, vertexConsumer, packedLight, packedOverlay);
+//		leg3.render(poseStack, vertexConsumer, packedLight, packedOverlay);
+//		leg4.render(poseStack, vertexConsumer, packedLight, packedOverlay);
+//	}
 }

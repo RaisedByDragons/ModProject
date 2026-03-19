@@ -10,7 +10,7 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.resources.Identifier;
 
-public class FancyPigRenderer extends MobRenderer<FancyPig, LivingEntityRenderState, FancyPigModel> {
+public class FancyPigRenderer extends MobRenderer<FancyPig, LivingEntityRenderState, FancyPigModel<LivingEntityRenderState>> {
 //    TODO: Currently uses PigModel, but should eventually use FancyPigModel
 //    public class FancyPigRenderer extends MobRenderer<FancyPig, LivingEntityRenderState, FancyPigModel> {
 

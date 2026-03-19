@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="Started support for the addition of entities">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/FabricMod.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="7e93d32b-1549-4281-9f66-fd2211018841" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-3.log.gz" afterDir="false" />
@@ -16,7 +13,7 @@
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/ModClientInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/ModClientInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FabricMod/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/FancyPigModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/FancyPigModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/renderer/FancyPigRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/renderer/FancyPigRenderer.java" afterDir="false" />
     </list>
@@ -108,39 +105,40 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/build.gradle.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FabricMod [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FabricMod [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FabricMod [configureLaunch].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FabricMod [dependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FabricMod [javadoc].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FabricMod [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;entities&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/casey/IdeaProjects/MTU/TSP-Minecraft-Mod/FabricMod/src/client/java/com/mod/client/model/reference_images_TO_BE_DELETED&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.C:/Users/cayde/Documents/GitHub/TSP-Minecraft-Mod/FabricMod/build.gradle.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.FabricMod [build].executor": "Run",
+    "Gradle.FabricMod [clean].executor": "Run",
+    "Gradle.FabricMod [configureLaunch].executor": "Run",
+    "Gradle.FabricMod [dependencies].executor": "Run",
+    "Gradle.FabricMod [javadoc].executor": "Run",
+    "Gradle.FabricMod [runClient].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "entities",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/casey/IdeaProjects/MTU/TSP-Minecraft-Mod/FabricMod/src/client/java/com/mod/client/model/reference_images_TO_BE_DELETED",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\client\java\com\mod\client\model\reference_images_TO_BE_DELETED" />
@@ -339,7 +337,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772079067851</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1773897822266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773897822266</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1773898073485</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773898073485</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,6 +375,7 @@
     <MESSAGE value="Working on pickaxe item" />
     <MESSAGE value="Working on replacing bedrock generation" />
     <MESSAGE value="Started support for the addition of entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started support for the addition of entities" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
