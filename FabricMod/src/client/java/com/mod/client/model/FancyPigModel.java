@@ -23,6 +23,7 @@ public class FancyPigModel extends EntityModel<FancyPig> {
 	// This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER =
 			new ModelLayerLocation(Identifier.tryParse(Aer.MOD_ID + ":fancy_pig"), "main");
+
 	private final ModelPart body;
 	private final ModelPart tail;
 	private final ModelPart head;
