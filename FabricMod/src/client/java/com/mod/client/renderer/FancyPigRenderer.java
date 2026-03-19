@@ -1,6 +1,7 @@
 package com.mod.client.renderer;
 
 import com.mod.Aer;
+import com.mod.client.model.FancyPigModel;
 import com.mod.entities.custom.FancyPig;
 
 import net.minecraft.client.model.animal.pig.PigModel;
@@ -9,7 +10,7 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.resources.Identifier;
 
-public class FancyPigRenderer extends MobRenderer<FancyPig, LivingEntityRenderState, PigModel> {
+public class FancyPigRenderer extends MobRenderer<FancyPig, LivingEntityRenderState, FancyPigModel> {
 //    TODO: Currently uses PigModel, but should eventually use FancyPigModel
 //    public class FancyPigRenderer extends MobRenderer<FancyPig, LivingEntityRenderState, FancyPigModel> {
 
@@ -25,7 +26,7 @@ public class FancyPigRenderer extends MobRenderer<FancyPig, LivingEntityRenderSt
 //    }
 
     public FancyPigRenderer(EntityRendererProvider.Context context) {
-        super(context, new PigModel(context.bakeLayer(net.minecraft.client.model.geom.ModelLayers.PIG)), 0.7f);
+        super(context, new FancyPigModel(context.bakeLayer(net.minecraft.client.model.geom.ModelLayers.PIG)), 0.7f);
 
 //        TODO - eventually the below model should be used
 //        super(context, new FancyPigModel(context.bakeLayer(FancyPigModel.LAYER)), 0.7f);
