@@ -17,6 +17,6 @@ public class ModClientInit implements ClientModInitializer {
 		EntityRendererRegistry.register(ModEntities.FANCY_PIG, context ->
 				new FancyPigRenderer(context)
 		);
-		EntityModelLayerRegistry.registerModelLayer(FancyPigModel.LAYER, FancyPigModel::createBodyLayer);
+		EntityModelLayerRegistry.registerModelLayer(FancyPigModel.LAYER, FancyPigModel::getLayerDefinition);
 	}
 }
