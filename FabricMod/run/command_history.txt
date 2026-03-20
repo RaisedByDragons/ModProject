@@ -1,0 +1,13 @@
+/summon a
+/summon aer:fancy_pig
+/gamemode spectator
+/tick freeze
+/gamemode creative
+/tick freeze
+/summon aer:fancy_pig
+/tick free`
+/tick freeze
+/summon aer:fancy_pig
+/tick freeze
+/kill @e
+/tick freeze

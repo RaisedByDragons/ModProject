@@ -14,7 +14,7 @@ public class FancyPigRenderer extends MobRenderer<FancyPig, LivingEntityRenderSt
 //    public class FancyPigRenderer extends MobRenderer<FancyPig, LivingEntityRenderState, FancyPigModel> {
 
     private static final Identifier TEXTURE =
-            Identifier.fromNamespaceAndPath(Aer.MOD_ID, "assets/aer/textures/entity/fancy_pig/fancy_pig.png");
+            Identifier.fromNamespaceAndPath(Aer.MOD_ID, "/textures/entity/fancy_pig/fancy_pig.png");
 
     public FancyPigRenderer(EntityRendererProvider.Context context) {
         super(context, new FancyPigModel<>(context.bakeLayer(FancyPigModel.LAYER)), 0.7f);

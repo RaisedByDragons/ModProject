@@ -12,3 +12,4 @@ run/saves/
 
 # Misc
 *.class
+/run/

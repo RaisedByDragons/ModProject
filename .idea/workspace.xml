@@ -13,9 +13,7 @@
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/FancyPigModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/model/FancyPigModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/renderer/FancyPigRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FabricMod/src/client/java/com/mod/client/renderer/FancyPigRenderer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,7 @@
     "git-widget-placeholder": "entities",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/casey/IdeaProjects/MTU/TSP-Minecraft-Mod/FabricMod/src/client/java/com/mod/client/model/reference_images_TO_BE_DELETED",
+    "last_opened_file_path": "C:/Users/casey/IdeaProjects/ModHelp/FabricMod/src/client/resources/assets/aer/textures/entity/fancy_pig",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -141,18 +139,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\casey\IdeaProjects\ModHelp\FabricMod\src\client\resources\assets\aer\textures\entity\fancy_pig" />
+      <recent name="C:\Users\casey\IdeaProjects\ModHelp\FabricMod\src\main\resources\assets\aer\textures\entity\fancy_pig" />
+      <recent name="C:\Users\casey\IdeaProjects\ModHelp\FabricMod\src\client\resources" />
       <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\client\java\com\mod\client\model\reference_images_TO_BE_DELETED" />
       <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\client\java\com\mod\client\model" />
-      <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\aer\textures\item" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\loot_table\blocks" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\recipe" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\aer\textures\entity\fancy_pig" />
-      <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\aer\models\item" />
-      <recent name="C:\Users\casey\IdeaProjects\MTU\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\aer\textures\entities\fancy_pig" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\data\mod\tags\items" />
-      <recent name="C:\Users\cayde\Documents\GitHub\TSP-Minecraft-Mod\FabricMod\src\main\resources\assets\mod\models\item" />
+      <recent name="C:\Users\casey\IdeaProjects\ModHelp\FabricMod\src\main\resources\assets\aer\textures\entity\fancy_pig" />
+      <recent name="C:\Users\casey\IdeaProjects\ModHelp\FabricMod\src\client\resources\assets\aer" />
+      <recent name="C:\Users\casey\IdeaProjects\ModHelp\FabricMod\src\client\resources\textures\entity" />
+      <recent name="C:\Users\casey\IdeaProjects\ModHelp\FabricMod\src\client\resources\textures" />
+      <recent name="C:\Users\casey\IdeaProjects\ModHelp\FabricMod\src\client\resources\textures\fancy_pig" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.FabricMod [runClient]">
@@ -161,7 +159,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/FabricMod" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -353,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773898073485</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1773941749832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773941749832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
